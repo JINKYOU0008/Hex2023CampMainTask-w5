@@ -1,0 +1,9 @@
+table>thead>tr{
+  border-bottom: 1px solid $dark;
+}
+thead{
+  .material-icons{
+    color: $primary;
+    font-size: 18px;
+  }
+}

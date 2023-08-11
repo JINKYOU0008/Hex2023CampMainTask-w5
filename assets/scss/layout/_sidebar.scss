@@ -1,0 +1,42 @@
+.menu{
+  li{
+    margin-bottom: 14px;
+  }
+  a{
+    display: flex;
+    padding: 8px 32px;
+    border-left: 4px solid transparent;
+  }
+  p{
+    margin: 0;
+  }
+  .material-icons{
+    margin-right: 16px;
+  }
+  .active{
+    border-color: $primary;
+    color: $primary;
+  }
+}
+.account{
+  display: flex;
+  align-items: center;
+  .photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true");
+    background-size: cover;
+    background-position: center;
+  }
+  .name{
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.5;
+  }
+  .email{
+    color: $gray-600;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,20 @@
+body{
+  height: 100vh;
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  a{
+    display: block;
+    text-decoration: none;
+  }
+}
+.part-left{
+  width: 25%;
+  max-width: 520px;
+  min-width: 296px;
+  font-weight: 900;
+  background-color: $light;
+}
+.part-rightd{
+  width: 75%;
+}
